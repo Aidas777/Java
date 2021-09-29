@@ -1,0 +1,54 @@
+
+
+public class Extend {
+
+	public void a() {
+
+		System.out.print("a ");
+
+	}
+
+	public void b() {
+
+		System.out.print("b ");
+
+		a();
+
+	}
+
+}
+
+public class Base extends Extend {
+
+	public void a() {
+
+		System.out.print("a1 ");
+
+	}
+
+	public void c() {
+		super.b();
+
+	}
+
+	public static void main(String[] args) {
+
+		Extend b = new Base();
+
+		b.c();
+
+	}
+
+}
+
+//public class Egzas {
+//
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//
+//
+//
+//
+//
+//	}
+//}

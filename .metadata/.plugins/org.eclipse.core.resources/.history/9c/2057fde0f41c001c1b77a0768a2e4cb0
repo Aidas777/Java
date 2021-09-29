@@ -1,0 +1,21 @@
+
+public class Egzas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		List<String> a = new List<>();
+
+		a.add("A");
+
+		a.add("B");
+
+		a.add("A");
+
+		System.out.print(a.size());
+
+
+
+	}
+}

@@ -1,0 +1,22 @@
+INDEX VERSION 1.131+E:\Projektai mano\JAVA\Mokymasis\.metadata\.plugins\org.eclipse.jdt.core
+2549199539.index
+1554866454.index
+2123503494.index
+283174474.index
+3307561045.index
+861582989.index
+3744203802.index
+3523539390.index
+1236104293.index
+3885712956.index
+1581016184.index
+2857625399.index
+29240611.index
+3050226723.index
+2369923729.index
+160769808.index
+2038673034.index
+3268015285.index
+153151095.index
+751277465.index
+752032271.index

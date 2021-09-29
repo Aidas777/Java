@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<addCategory
+		id="category_1626800570648"
+		name="Custom"
+		description="Container for custom components"
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="custom_1626800570648"
+		name="Rectangle"
+		description="Creates java.awt.Rectangle component."
+		visible="true"
+		class="java.awt.Rectangle"
+		category="category_1626800570648"/>
+</commands>

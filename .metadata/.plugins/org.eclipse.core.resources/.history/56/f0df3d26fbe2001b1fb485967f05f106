@@ -1,0 +1,78 @@
+package Nd;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import javax.swing.SwingConstants;
+import javax.swing.JTextField;
+import java.awt.Font;
+
+public class Ivedimas extends JFrame {
+
+	private JPanel contentPane;
+	private JTextField tfPl;
+	private JTextField textField;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Ivedimas frame = new Ivedimas();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public Ivedimas() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 500, 500);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("Kambario da\u017Eymo skai\u010Diuokl\u0117");
+		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel.setBounds(100, 11, 300, 14);
+		contentPane.add(lblNewLabel);
+		
+		JLabel lbKplot = new JLabel("Kambario plotis");
+		lbKplot.setFont(lbKplot.getFont().deriveFont(lbKplot.getFont().getStyle() & ~Font.BOLD));
+		lbKplot.setBounds(24, 78, 300, 14);
+		contentPane.add(lbKplot);
+		
+		JLabel lbPateikMain = new JLabel("Pateikite duomenis");
+		lbPateikMain.setHorizontalAlignment(SwingConstants.CENTER);
+		lbPateikMain.setFont(lbPateikMain.getFont().deriveFont(lbPateikMain.getFont().getStyle() & ~Font.BOLD));
+		lbPateikMain.setBounds(100, 50, 300, 14);
+		contentPane.add(lbPateikMain);
+		
+		tfPl = new JTextField();
+		tfPl.setBounds(364, 75, 86, 20);
+		contentPane.add(tfPl);
+		tfPl.setColumns(10);
+		
+		JLabel lblKokPlotGalima = new JLabel("Kok\u012F plot\u0105 galima nuda\u017Eyti su viena d\u0117\u017Eute");
+		lblKokPlotGalima.setFont(lblKokPlotGalima.getFont().deriveFont(lblKokPlotGalima.getFont().getStyle() & ~Font.BOLD));
+		lblKokPlotGalima.setBounds(24, 109, 300, 14);
+		contentPane.add(lblKokPlotGalima);
+		
+		textField = new JTextField();
+		textField.setColumns(10);
+		textField.setBounds(364, 106, 86, 20);
+		contentPane.add(textField);
+	}
+}

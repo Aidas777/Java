@@ -1,0 +1,3 @@
+Jonas Jonaitis jongas@gmail.com 1000
+Petras Petraitis petras@gmail.com 900
+Kazys Kazlauskas kazys@gmail.com 700

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;MyLbl&apos; to &apos;BigLabel&apos;&#x0D;&#x0A;- Original project: &apos;MygtukasPaveldimas&apos;&#x0D;&#x0A;- Original element: &apos;MyLbl&apos;&#x0D;&#x0A;- Renamed element: &apos;BigLabel&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MyLbl&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{MyLbl.java[MyLbl" matchStrategy="1" name="BigLabel" qualified="false" references="true" similarDeclarations="false" stamp="1625762524127" textual="false" version="1.0"/>
+</session>
